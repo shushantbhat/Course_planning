@@ -79,22 +79,15 @@ Data Management:
 All data is stored in JSON files for easy access and updates.
 
 Benefits:
-Efficient Planning: Automates the process of creating and managing lesson schedules.
-
-Flexibility: Allows rescheduling of missed topics to ensure all material is covered.
-
-User-Friendly: Simple and intuitive interface for educators and students.
-
-Scalable: Can be extended to support multiple semesters, subjects, and users.
+1)Efficient Planning: Automates the process of creating and managing lesson schedules.
+2)Flexibility: Allows rescheduling of missed topics to ensure all material is covered.
+3)User-Friendly: Simple and intuitive interface for educators and students.
+4)Scalable: Can be extended to support multiple semesters, subjects, and users.
 
 Future Enhancements:
 Integration with a calendar application for real-time updates.
 
 Support for multiple users and roles (e.g., admin, teacher, student).
-
-Export timetables to PDF or Excel for offline use.
-
-Notifications for upcoming lessons and deadlines.
 
 This project is ideal for educational institutions, tutors, and self-learners who want to streamline their lesson planning and ensure efficient time management.
 
