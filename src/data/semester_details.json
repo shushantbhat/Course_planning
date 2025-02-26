@@ -1,0 +1,17 @@
+[
+  {
+    "semesterStartDate": "2025-02-26",
+    "semesterEndDate": "2025-03-19",
+    "teachingDays": {
+      "mon": false,
+      "tue": true,
+      "wed": true,
+      "thu": false,
+      "fri": true
+    },
+    "holidays": [
+      "2025-02-28",
+      "2025-03-08"
+    ]
+  }
+]

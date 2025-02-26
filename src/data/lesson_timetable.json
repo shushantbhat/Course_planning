@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2025-02-26",
+    "type": "Class",
+    "details": "integration: a",
+    "status": "Rescheduled"
+  },
+  {
+    "date": "2025-02-27",
+    "type": "Class",
+    "details": "integration: a",
+    "status": "Rescheduled from 2025-02-26 (Extra Lecture)"
+  },
+  {
+    "date": "2025-02-28",
+    "type": "Holiday",
+    "details": "No classes"
+  },
+  {
+    "date": "2025-03-01",
+    "type": "Non-teaching day",
+    "details": "No classes"
+  },
+  {
+    "date": "2025-03-02",
+    "type": "Non-teaching day",
+    "details": "No classes"
+  },
+  {
+    "date": "2025-03-03",
+    "type": "Non-teaching day",
+    "details": "No classes"
+  },
+  {
+    "date": "2025-03-04",
+    "type": "Class",
+    "details": "integration: b"
+  },
+  {
+    "date": "2025-03-05",
+    "type": "Class",
+    "details": "integration: c"
+  },
+  {
+    "date": "2025-03-06",
+    "type": "Non-teaching day",
+    "details": "No classes"
+  },
+  {
+    "date": "2025-03-07",
+    "type": "Class",
+    "details": "differentation: p"
+  },
+  {
+    "date": "2025-03-08",
+    "type": "Holiday",
+    "details": "No classes"
+  },
+  {
+    "date": "2025-03-09",
+    "type": "Non-teaching day",
+    "details": "No classes"
+  },
+  {
+    "date": "2025-03-10",
+    "type": "Non-teaching day",
+    "details": "No classes"
+  },
+  {
+    "date": "2025-03-11",
+    "type": "Class",
+    "details": "differentation: q"
+  },
+  {
+    "date": "2025-03-12",
+    "type": "Class",
+    "details": "differentation: r"
+  },
+  {
+    "date": "2025-03-13",
+    "type": "Non-teaching day",
+    "details": "No classes"
+  },
+  {
+    "date": "2025-03-14",
+    "type": "Class",
+    "details": "graphs: f"
+  },
+  {
+    "date": "2025-03-15",
+    "type": "Non-teaching day",
+    "details": "No classes"
+  },
+  {
+    "date": "2025-03-16",
+    "type": "Non-teaching day",
+    "details": "No classes"
+  },
+  {
+    "date": "2025-03-17",
+    "type": "Non-teaching day",
+    "details": "No classes"
+  },
+  {
+    "date": "2025-03-18",
+    "type": "Class",
+    "details": "graphs: g"
+  },
+  {
+    "date": "2025-03-19",
+    "type": "Vacant",
+    "details": "No topics scheduled"
+  }
+]

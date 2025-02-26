@@ -1,0 +1,27 @@
+[
+  {
+    "username": "aayush",
+    "password": "$2b$12$fs4b3IviYAlQW0ZYbCxhZum.b6h7.1kIYNMzUwGup47N9JPI3tML.",
+    "subject": "english"
+  },
+  {
+    "username": "mohit",
+    "password": "$2b$12$SK1TO83dPQLLHmrgOIhcjOa2hwitRgfLUa9brX3oPbnsdAGajBBaS",
+    "subject": "rant"
+  },
+  {
+    "username": "sb",
+    "password": "$2b$12$d2LFKBrA0IHr6GXXGGkfAefZ.wsYa7OR/vUE1XI6YKN0kwfIB8hs2",
+    "subject": "qwerty"
+  },
+  {
+    "username": "shushant",
+    "password": "$2b$12$IvYs.0GJ1Ezu4VTXGB1bN.XAUvLP3j2qS7HoDZdfpm.plEjgDKXsK",
+    "subject": "Math"
+  },
+  {
+    "username": "shush",
+    "password": "$2b$12$xrUBW1bFN8MXlNm4MPaOaub7JIPQxquzlcM63IthAet1VJpkxwrjW",
+    "subject": "math"
+  }
+]

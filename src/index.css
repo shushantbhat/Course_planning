@@ -1,0 +1,349 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Common heading styles */
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+/* Form elements */
+form {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f5f5f5;
+}
+
+/* Status badges */
+.status-badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.status-pending {
+    background-color: #f5f5f5;
+}
+
+.status-completed {
+    background-color: #e8f5e9;
+}
+
+.status-rescheduled {
+    background-color: #fff3e0;
+}
+
+/* Error messages */
+.error {
+    color: red;
+    margin: 10px 0;
+}
+
+/* Loading state */
+.loading {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Checkbox groups */
+.checkbox-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Navigation */
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .checkbox-group {
+        flex-direction: column;
+    }
+    
+    table {
+        font-size: 14px;
+    }
+    
+    th, td {
+        padding: 8px;
+    }
+}
+
+/* Common styles for both components */
+.lesson-timetable-container,
+.lesson-schedule-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Headers */
+.lesson-timetable-container h2,
+.lesson-schedule-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #333;
+}
+
+/* Loading and Error Messages */
+.loading-message,
+.error-message {
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.loading-message {
+    text-align: center;
+    color: #666;
+}
+
+.error-message {
+    background-color: #fee2e2;
+    border: 1px solid #ef4444;
+    color: #dc2626;
+}
+
+/* Form Styles */
+.schedule-form {
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 24px;
+    border: 1px solid #e5e7eb;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+}
+
+/* Teaching Days */
+.teaching-days {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.teaching-days label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Table Styles */
+.table-container {
+    overflow-x: auto;
+}
+
+.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.timetable th {
+    background-color: #f8f9fa;
+    padding: 12px 24px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.timetable td {
+    padding: 16px 24px;
+    border-top: 1px solid #e5e7eb;
+    font-size: 14px;
+    color: #333;
+}
+
+.timetable tr:hover {
+    background-color: #f9fafb;
+}
+
+/* Status Badges */
+.status-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 9999px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.status-pending {
+    background-color: #f3f4f6;
+    color: #4b5563;
+}
+
+.status-completed {
+    background-color: #dcfce7;
+    color: #166534;
+}
+
+.status-rescheduled {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+/* Buttons */
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #2563eb;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Empty States */
+.no-timetable {
+    text-align: center;
+    padding: 32px;
+    color: #666;
+}
+
+/* Topic Confirmation */
+.topic-confirmation {
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 24px;
+    border: 1px solid #e5e7eb;
+}
+
+.topic-confirmation h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.confirmation-buttons {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .lesson-timetable-container,
+    .lesson-schedule-container {
+        padding: 16px;
+    }
+
+    .teaching-days {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .timetable th,
+    .timetable td {
+        padding: 12px 16px;
+    }
+}
